@@ -1,0 +1,23 @@
+{
+    "name": "sched",
+    "description": "Embedded (bare metal) C scheduler library",
+    "repo": "bradschl/embedded-c-scheduler",
+    "license": "MIT",
+    "version": "0.0.1",
+    "src": [
+        "src/sched/sched.c",
+        "src/sched/sched.h"
+    ],
+    "dependencies": {
+        "bradschl/timermath.h": "*",
+        "clibs/strdup": "*"
+    },
+    "development": {
+        "stephenmathieson/describe.h": "*"
+    },
+    "keywords": [
+        "scheduler",
+        "c",
+        "embedded"
+  ]
+}
